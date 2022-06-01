@@ -6,12 +6,18 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Registration</title>
       <style>
+         body {
+            background-image: url('assets/BG.jpg');
+
+            background-size: 100% 100%;
+         }
          .container {
             width: 400px;
             margin: auto;
             margin-top: 100px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             padding: 20px;
+            color: white;
          }
          #register {
             display: grid;
@@ -19,16 +25,29 @@
          input {
             height: 30px;
          }
+         #register h2 {
+            text-align: center;
+         }
          button {
+            margin: auto;
             width: 40%;
+            height: 30px;
+            background-color: transparent;
+            border: 1px solid #34568b;
+            color: white;
+         }
+         button:hover {
+            background-color: rgb(179, 28, 28);
+            color: white;
          }
       </style>
    </head>
    <body>
       <div class="container">
          <form action="" id="register">
+            <h2>Registration</h2>
             <label for="">Enter Name</label>
-            <input type="text" placeholder="Enter Name" /><br />
+            <input type="text" placeholder="Enter Name" name="" /><br />
             <label for="">Enter Email</label>
             <input type="email" placeholder="Enter Email" /><br />
             <label for="">Enter Password</label>
