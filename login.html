@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        h1 {
+            z-index: 10;
+            color: black;
+            padding-bottom: 50px;
+        }
+
+        body {
+            /* background-color: black; */
+            display: flex;
+            flex-direction: column;
+            background-image: url(../Login-Page/d7ibyms-f0bc5415-e863-4b2e-9544-af696e1f26df-modified.png);
+            background-size: 120%;
+            /* filter: grayscale(1); */
+        }
+
+        #username {
+            width: 200px;
+            height: 30px;
+            margin: 40px;
+        }
+
+        img {
+            height: 100%;
+        }
+
+        #password {
+            width: 200px;
+            height: 30px;
+            margin-bottom: 40px;
+
+        }
+
+        input {
+            border: transparent;
+            -webkit-box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.9);
+            -moz-box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.9);
+            box-shadow: 0px 0px 54px 0px rgba(0, 0, 0, 0.9);
+        }
+
+        #main {
+            /* background-color: gray; */
+            width: 30%;
+            height: 600px;
+            margin-left: 10%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* box-shadow:
+                0 0 60px 30px #fff,
+                0 0 100px 60px rgb(16, 57, 59),
+                0 0 140px 90px #0ff; */
+        }
+
+        #txt {
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: orangered;
+        }
+
+        #sup {
+            font-size: x-large;
+            color: red;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+
+        #res {
+            font-size: x-large;
+            color: red;
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Login here</h1>
+        <!-- <img src="../Login-Page/de01dz2-6974cb72-338d-4bd2-bea2-c8faaa63edd9.png" alt=""> -->
+        <div id="txt">Sign in below</div>
+        <div id="lin">
+            <input type="text" id="username">
+        </div>
+        <div id="pss">
+            <input type="text" id="password">
+        </div>
+        <div id="sup">Fine do it yourself <a href="">Check Here</a></div>
+
+        <div id="res">I know what its like to lose <a href="">Recover password</a></div>
+    </div>
+</body>
+
+</html>
