@@ -83,27 +83,53 @@
             color: red;
             font-weight: 900;
         }
+        button{
+            border: 0;
+            padding: 10px 20px;
+            color: red;
+            font-weight: 700;
+            font-size: 1.9em;
+            background-color: transparent;
+        }
+        #overlay{
+            position: absolute;
+            width: 40%;
+            height: 30%;
+            background-color: black;
+            color: white;
+            font-weight: 800;
+            font-size: 60px;
+            margin-left: 30%;
+            margin-top: 10%;
+            text-align: center;
+            z-index: 1;
+        }
+        .hide{
+            display: none;
+        }
     </style>
 </head>
 
 <body>
     <div id="main">
-        <h1>Login here</h1>
+        <h1>Welcome Avenger !</h1>
         <!-- <img src="../Login-Page/de01dz2-6974cb72-338d-4bd2-bea2-c8faaa63edd9.png" alt=""> -->
-        <div id="txt">Sign in below</div>
+        <div id="txt">Tell us who you are :::</div>
         <div id="lin">
             <input type="text" id="username">
         </div>
         <div id="pss">
             <input type="text" id="password">
         </div>
+        <button onclick="entry()">Test Your Might</button>
         <div id="sup">Fine do it yourself <a href="Registration.html">Check Here</a></div>
 
-        <div id="res">I know what its like to lose <a href="">Recover password</a></div>
+        <div id="res">I know what its like to lose <a href="#">Recover password</a></div>
+    </div>
+
+    <div id="overlay" class="hide">
     </div>
 </body>
 
-<script src="script.js">
-    
-</script>
+<script src="script.js"></script>
 </html>

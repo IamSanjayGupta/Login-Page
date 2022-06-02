@@ -5,12 +5,12 @@ let credential = {
 function entry(){
     let user = document.querySelector('#username').value;
     let pass = document.querySelector('#password').value;
-    console.log(credential);
-    console.log(user);
-    console.log(pass);
     if(credential[user]==pass){
-        console.log("Successfully Logged in");
+        console.log("Success")
     }else{
         console.log("something wrong")
+        document.querySelector("#overlay").removeAttribute("class");
     }
 }
+
+let 
